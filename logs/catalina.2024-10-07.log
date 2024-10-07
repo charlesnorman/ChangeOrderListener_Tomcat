@@ -1,0 +1,180 @@
+07-Oct-2024 08:54:02.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.95
+07-Oct-2024 08:54:02.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 13 2024 18:07:47 UTC
+07-Oct-2024 08:54:02.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.95.0
+07-Oct-2024 08:54:02.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Oct-2024 08:54:02.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Oct-2024 08:54:02.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Oct-2024 08:54:02.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11
+07-Oct-2024 08:54:02.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.24+8-adhoc..jdk11u
+07-Oct-2024 08:54:02.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            OpenLogic
+07-Oct-2024 08:54:02.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat
+07-Oct-2024 08:54:02.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat
+07-Oct-2024 08:54:02.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Oct-2024 08:54:02.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Oct-2024 08:54:02.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Oct-2024 08:54:02.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Oct-2024 08:54:02.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Oct-2024 08:54:02.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\conf\logging.properties
+07-Oct-2024 08:54:02.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Oct-2024 08:54:02.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\charl\Desktop\Certificate\jSSLKeyLog-1.3\jSSLKeyLog.jar=C:\Users\charl\Desktop\Certificate\jSSLKeyLog-1.3\sslkeylog.log
+07-Oct-2024 08:54:02.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Oct-2024 08:54:02.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Oct-2024 08:54:02.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Oct-2024 08:54:02.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat
+07-Oct-2024 08:54:02.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat
+07-Oct-2024 08:54:02.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\temp
+07-Oct-2024 08:54:02.496 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+07-Oct-2024 08:54:02.496 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Oct-2024 08:54:02.496 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Oct-2024 08:54:02.499 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+07-Oct-2024 08:54:02.647 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Oct-2024 08:54:02.662 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 13 more
+07-Oct-2024 08:54:02.665 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-openssl-nio-8443"]
+07-Oct-2024 08:54:02.665 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["https-openssl-nio-8443"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 13 more
+07-Oct-2024 08:54:02.666 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [292] milliseconds
+07-Oct-2024 08:54:02.714 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Oct-2024 08:54:02.714 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.95]
+07-Oct-2024 08:54:02.729 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\ChangeOrderListener.war]
+07-Oct-2024 08:54:03.178 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [268] milliseconds.
+07-Oct-2024 08:54:03.187 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\ChangeOrderListener.war] has finished in [458] ms
+07-Oct-2024 08:54:03.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\docs]
+07-Oct-2024 08:54:03.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\docs] has finished in [13] ms
+07-Oct-2024 08:54:03.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\examples]
+07-Oct-2024 08:54:03.349 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\examples] has finished in [148] ms
+07-Oct-2024 08:54:03.350 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\host-manager]
+07-Oct-2024 08:54:03.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\host-manager] has finished in [18] ms
+07-Oct-2024 08:54:03.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\manager]
+07-Oct-2024 08:54:03.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\manager] has finished in [13] ms
+07-Oct-2024 08:54:03.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\ROOT]
+07-Oct-2024 08:54:03.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\ROOT] has finished in [9] ms
+07-Oct-2024 08:54:03.395 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [729] milliseconds
+07-Oct-2024 08:54:03.398 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: NET_Bind
+		at java.base/java.net.PlainSocketImpl.bind0(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketBind(PlainSocketImpl.java:132)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+07-Oct-2024 08:54:03.398 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Oct-2024 08:54:03.399 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-openssl-nio-8443"]
+07-Oct-2024 08:54:03.399 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Oct-2024 08:54:03.409 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Oct-2024 08:54:03.410 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Oct-2024 08:54:03.410 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-openssl-nio-8443"]
+07-Oct-2024 08:54:03.410 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-openssl-nio-8443"]
+07-Oct-2024 08:56:42.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.95
+07-Oct-2024 08:56:42.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 13 2024 18:07:47 UTC
+07-Oct-2024 08:56:42.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.95.0
+07-Oct-2024 08:56:42.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Oct-2024 08:56:42.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Oct-2024 08:56:42.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Oct-2024 08:56:42.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11
+07-Oct-2024 08:56:42.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.24+8-adhoc..jdk11u
+07-Oct-2024 08:56:42.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            OpenLogic
+07-Oct-2024 08:56:42.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat
+07-Oct-2024 08:56:42.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat
+07-Oct-2024 08:56:42.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Oct-2024 08:56:42.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Oct-2024 08:56:42.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Oct-2024 08:56:42.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Oct-2024 08:56:42.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Oct-2024 08:56:42.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\conf\logging.properties
+07-Oct-2024 08:56:42.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Oct-2024 08:56:42.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\charl\Desktop\Certificate\jSSLKeyLog-1.3\jSSLKeyLog.jar=C:\Users\charl\Desktop\Certificate\jSSLKeyLog-1.3\sslkeylog.log
+07-Oct-2024 08:56:42.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Oct-2024 08:56:42.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Oct-2024 08:56:42.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Oct-2024 08:56:42.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat
+07-Oct-2024 08:56:42.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat
+07-Oct-2024 08:56:42.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\temp
+07-Oct-2024 08:56:42.116 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+07-Oct-2024 08:56:42.116 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Oct-2024 08:56:42.117 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Oct-2024 08:56:42.126 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+07-Oct-2024 08:56:42.266 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Oct-2024 08:56:42.284 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-openssl-nio-8443"]
+07-Oct-2024 08:56:42.513 INFO [main] org.apache.tomcat.util.net.AbstractEndpoint.logCertificate Connector [https-openssl-nio-8443], TLS virtual host [_default_], certificate type [RSA] configured from keystore [C:\Users\charl\Desktop\Certificate\tigercontrols.jks] using alias [tomcat] with trust store [null]
+07-Oct-2024 08:56:42.513 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [529] milliseconds
+07-Oct-2024 08:56:42.547 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Oct-2024 08:56:42.547 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.95]
+07-Oct-2024 08:56:42.568 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\ChangeOrderListener.war]
+07-Oct-2024 08:56:42.894 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [164] milliseconds.
+07-Oct-2024 08:56:42.905 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\ChangeOrderListener.war] has finished in [337] ms
+07-Oct-2024 08:56:42.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\docs]
+07-Oct-2024 08:56:42.920 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\docs] has finished in [14] ms
+07-Oct-2024 08:56:42.920 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\examples]
+07-Oct-2024 08:56:43.093 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\examples] has finished in [173] ms
+07-Oct-2024 08:56:43.093 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\host-manager]
+07-Oct-2024 08:56:43.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\host-manager] has finished in [16] ms
+07-Oct-2024 08:56:43.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\manager]
+07-Oct-2024 08:56:43.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\manager] has finished in [14] ms
+07-Oct-2024 08:56:43.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\ROOT]
+07-Oct-2024 08:56:43.133 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\charl\Desktop\ChangeOrderListenerTomcat\ChangeOrderListener_Tomcat\webapps\ROOT] has finished in [10] ms
+07-Oct-2024 08:56:43.135 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Oct-2024 08:56:43.150 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-openssl-nio-8443"]
+07-Oct-2024 08:56:43.151 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [637] milliseconds
